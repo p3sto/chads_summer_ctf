@@ -16,7 +16,7 @@ Download this image and find the flag.
 </details>
 
 ### Solution
-After downloading the image and running it though `zsteg`, the flag is produced followed with the `$teg0` text according to the hint.
+After downloading the image and running it though [`zsteg`](https://github.com/zed-0xff/zsteg), the flag is produced followed with the `$teg0` text according to the hint.
 
 ```bash
 $ zsteg pico.flag.png 
