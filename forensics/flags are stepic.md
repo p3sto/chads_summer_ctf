@@ -21,8 +21,8 @@ as not being a real country i.e. The Republic of Upanzi.
 ![image](https://github.com/user-attachments/assets/d87c7964-ee33-4c69-b4e6-61262f25b6ea)
 
 After downloading the flag's PNG and running it through common stegonography tools like zsteg and exiftool yielded no meaningful results. I looked
-further into the title and the word 'stepic' stood out. With some further research, I found out that stepic was actually a python library and CLI 
-tool used for stegonography. After simply installing it and running the command with the correct arguments, the flag was produced.
+further into the title and the word 'stepic' stood out. With some further research, I found out that stepic was actually a [python library and CLI 
+tool](https://github.com/1049451037/stepic) used for stegonography. After following the installation steps and running the command with the correct arguments, the flag was produced.
 ```bash
 $ stepic -d -i upz.png 
 /usr/lib/python3/dist-packages/PIL/Image.py:3186: DecompressionBombWarning: Image size (150658990 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
