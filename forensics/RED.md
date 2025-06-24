@@ -40,7 +40,7 @@ Scarlet leaves falling softly,.
 Bold in every stroke.
 ```
 
-CHECKLSB. This indicates that the flag is encoded using LSB Stegonography and with a tool like `zsteg` we can extract the message:
+CHECKLSB. This indicates that the flag is encoded using LSB Stegonography and with a tool like [`zsteg`](https://github.com/zed-0xff/zsteg) we can extract the message:
 
 ```sh
 $ zsteg red.png 
